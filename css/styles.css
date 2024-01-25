@@ -1,6 +1,7 @@
 /* CUSTOM PROPS */
 :root {
   --primary: #ea625c;
+  --text-color: #333;
 }
 
 
@@ -23,11 +24,11 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
-  color: #222;
+  color: var(--text-color);
 }
 
 img {
@@ -36,30 +37,7 @@ img {
 }
 
 
-/* AUTOFILL-STYLES */
-/*input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-  border-color: transparent;
-  -webkit-text-fill-color: inherit;
-  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
-}*/
 
-
-/* PLACEHOLDER-STYLES */
-/*::-webkit-input-placeholder,
-::-moz-placeholder,
-:-ms-input-placeholder,
-:-moz-placeholder {
-  color: rgba(52, 49, 61, 0.5);
-  opacity: 1;
-}*/
 
 
 /* VISUALLY-HIDDEN */
@@ -78,7 +56,7 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
@@ -91,9 +69,9 @@ select:-webkit-autofill:focus {
   flex-grow: 1;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
+/* @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {}
+only screen and (min-resolution: 2dppx) {} */
