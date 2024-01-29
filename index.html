@@ -10,19 +10,50 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<!-- Stylesheets -->
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/styles.css">
+
+
 
 
 
 <body>
 
+  <!-- SITE-HEADER -->
+  <header class="site-header">
+    <div class="site-header-container  container">
+      <a class="site-header-logo" href="#">
+        <img class="site-header-logo-img" src="./img/apple-logo.svg" alt="apple-logo" width="35" height="42">
+      </a>
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="#">Home</a>
+          </li>
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="#">About</a>
+          </li>
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="#">Offers</a>
+          </li>
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="#">Services</a>
+          </li>
+        </ul>
+      </nav>
 
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="GET">
+        <input class="serch-form-input" type="serch" name="serch" placeholder="How can we help you?" arial-lab="Search"
+          required>
+      </form>
+    </div>
+  </header>
+  <script src="js/main.js"></script>
 
 </body>
-<script src="js/main.js"></script>
 
 </html>
